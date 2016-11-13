@@ -6,7 +6,7 @@ module.exports = React.createClass({
     return(
       <div>
 	// addStory functionality will go here
-	{this.props.stories.map(function (s, index) {return (s.name)}) }
+	{this.props.stories.map(function (s, index) {return (s)}) }
       </div>
     )
   }
