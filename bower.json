@@ -1,0 +1,17 @@
+{
+  "name": "tua",
+  "homepage": "https://github.com/blazeiburgess/tua",
+  "authors": [
+    "blaze.i.burgess <blaze.i.burgess@gmail.com>"
+  ],
+  "description": "Application to aid writing",
+  "main": "",
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
