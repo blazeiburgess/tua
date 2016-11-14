@@ -1,6 +1,6 @@
 var React = require("react");
 var ReactDOM = require("react-dom");
-var StoryList = require("./components/StoryList.jsx");
+var StoriesList = require("./components/StoriesList.jsx");
 var storiesStore  = require("./stores/storiesStore");
 
 
@@ -12,6 +12,6 @@ storiesStore.onChange(function (stories) {
 });
 
 function render() {
-  ReactDOM.render(<StoryList stories={_stories} />, document.getElementById("container"));
+  ReactDOM.render(<StoriesList stories={_stories} />, document.getElementById("container"));
 }
 render();
