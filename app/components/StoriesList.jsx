@@ -5,9 +5,9 @@ var AddStory = require("./AddStory.jsx");
 module.exports = React.createClass({
   render: function () {
     return(
-      <div>
-	// addStory functionality will go here
+      <div>	
 	{this.props.stories.map(function (s, index) {return(<StoryInfo story={s} />) }) }
+	<AddStory />
       </div>
     )
   }

@@ -22,11 +22,14 @@ module.exports = React.createClass({
   render: function () {
     return(
       <form className="form" onSubmit={this.addStory}>
-	<label for="">School Name:</label>
-	<input type="text" />
+	<label for="">Story Name:</label>
+	<input type="text" name="name" />
+	<br />
 	<label for="">Tagline:</label>
 	<input type="text" name="tagline" />
-	<submit value="Add Story"></submit>
+	<br />
+	<input type="submit" value="Add Story" />
+	
       </form>
     )
   }

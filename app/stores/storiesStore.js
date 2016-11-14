@@ -39,12 +39,12 @@ function StoryStore () {
 
   function triggerListeners() {
     listeners.forEach(function (listener) {
-      listener(schools);
+      listener(stories);
     });
   }
 
   dispatcher.register(function (payload) {
-    var split = payload.typle.split(":");
+    var split = payload.type.split(":");
     if (split[0] === "story") {
       switch (split[1]) {
         case 'addStory':
